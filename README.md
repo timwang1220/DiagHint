@@ -104,16 +104,6 @@ Main output:
 
 - `models/utility/best.pt`
 
-If using the BAO-hybrid encoder:
-
-```bash
-PYTHONPATH=src python3 src/utility-model/train.py \
-  --train_jsonl outputs/demo_pool/utility_trials.jsonl \
-  --artifacts_dir models/cardinality_bias \
-  --predicate_fit_dir outputs/demo_pool \
-  --out_dir models/utility \
-  --encoder_mode bao_hybrid \
-  --encoder_artifacts_dir models/utility/encoder_artifacts.json
 ```
 
 ## 4. Online: Run All Queries in a Directory
