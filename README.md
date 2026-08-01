@@ -104,7 +104,7 @@ Main output:
 
 - `models/utility/best.pt`
 
-```
+
 
 ## 4. Online: Run All Queries in a Directory
 
