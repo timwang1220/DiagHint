@@ -1,0 +1,13 @@
+psycopg2
+openapi
+httpx
+openai
+sentence_transformers
+torch>=2.0
+torchvision
+transformers>=4.30
+numpy
+tqdm
+scikit-learn
+pandas
+sqlglot
